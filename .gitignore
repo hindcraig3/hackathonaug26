@@ -1,0 +1,4 @@
+.snowflake/
+.ddl/
+.generators/
+prepare_deploy.sh

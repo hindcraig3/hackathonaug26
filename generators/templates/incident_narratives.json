@@ -1,0 +1,211 @@
+{
+  "realistic_narratives": [
+    {
+      "type": "INJURY",
+      "severity": "MINOR",
+      "template": "A {role} was walking along the corridor between {building} and the main office when they slipped on a wet patch near the entrance. The floor had recently been mopped but no wet floor sign was placed. They landed on their {body_part} and reported minor bruising. First aid was administered on site.",
+      "location_type": "INDOOR",
+      "activity": "TRANSIT",
+      "root_cause": "PROCEDURAL"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MODERATE",
+      "template": "During a routine maintenance visit at {site_name}, a contractor from {contractor} was replacing ceiling tiles in {building} when the ladder shifted on the polished floor. The worker fell approximately 1.5 metres, landing on their {body_part}. They were taken to the local medical centre for assessment and diagnosed with soft tissue injury. Two days off work resulted.",
+      "location_type": "INDOOR",
+      "activity": "MAINTENANCE",
+      "root_cause": "EQUIPMENT_FAILURE"
+    },
+    {
+      "type": "NEAR_MISS",
+      "severity": "MINOR",
+      "template": "A large branch from the pohutukawa tree near the {building} car park broke off during high winds on {date}. The branch landed on the pathway between the car park and the school entrance. No one was in the area at the time, however students regularly use this path during morning drop-off. The tree has been flagged for arborist inspection.",
+      "location_type": "OUTDOOR",
+      "activity": "TRANSIT",
+      "root_cause": "ENVIRONMENTAL"
+    },
+    {
+      "type": "INJURY",
+      "severity": "SERIOUS_HARM",
+      "template": "A student was using the flying fox on the junior playground when the cable mechanism failed, causing the handle to drop suddenly. The student fell approximately 2 metres to the bark surface below, sustaining a fractured {body_part}. Emergency services were called and the student was transported to hospital. The playground equipment has been isolated pending investigation.",
+      "location_type": "PLAYGROUND",
+      "activity": "PLAY",
+      "root_cause": "EQUIPMENT_FAILURE"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MINOR",
+      "template": "The school caretaker was operating the ride-on mower on the main sports field when a stone was thrown up by the blade, striking them on the {body_part}. They were wearing safety boots but not shin guards. Minor laceration treated with first aid kit. Review of PPE requirements for grounds maintenance to be conducted.",
+      "location_type": "SPORTS_FIELD",
+      "activity": "MAINTENANCE",
+      "root_cause": "PROCEDURAL"
+    },
+    {
+      "type": "NEAR_MISS",
+      "severity": "MINOR",
+      "template": "At approximately 8:45am during morning drop-off, a parent's vehicle reversed out of a car park space without checking for pedestrians. A year 5 student had to jump out of the way to avoid being struck. The student was not injured but was visibly shaken. CCTV footage has been reviewed. Speed humps and improved signage have been recommended.",
+      "location_type": "CARPARK",
+      "activity": "TRANSIT",
+      "root_cause": "HUMAN_ERROR"
+    },
+    {
+      "type": "PROPERTY_DAMAGE",
+      "severity": "MINOR",
+      "template": "Overnight on {date}, a severe weather event caused water ingress through the roof of {building}. Ceiling panels in two classrooms were damaged and water pooled on the floor. The affected rooms were closed pending assessment by the roofing contractor. No students or staff were present at the time of the incident.",
+      "location_type": "INDOOR",
+      "activity": "ADMIN",
+      "root_cause": "ENVIRONMENTAL"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MODERATE",
+      "template": "A teacher was carrying a box of textbooks down the stairwell in {building} when they missed the bottom step. They twisted their {body_part} and were unable to put weight on it. Another staff member assisted them to the staff room and an ice pack was applied. The teacher was advised to seek medical attention and was absent for three days.",
+      "location_type": "STAIRWELL",
+      "activity": "TEACHING",
+      "root_cause": "HUMAN_ERROR"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MINOR",
+      "template": "During a technology class, a year 10 student was using a hot glue gun when a small amount of molten glue dripped onto their {body_part}. The affected area was immediately run under cold water for 10 minutes as per first aid protocol. A minor superficial burn was recorded. The supervising teacher has reviewed safety procedures with the class.",
+      "location_type": "WORKSHOP",
+      "activity": "TEACHING",
+      "root_cause": "HUMAN_ERROR"
+    },
+    {
+      "type": "NEAR_MISS",
+      "severity": "MODERATE",
+      "template": "An electrical contractor from {contractor} was conducting routine maintenance on the main switchboard in {building} when they identified exposed live wiring behind a panel that was not shown on the electrical schematics. Work was immediately stopped and the area isolated. If the wiring had been touched during the maintenance work, serious electrocution could have resulted.",
+      "location_type": "INDOOR",
+      "activity": "MAINTENANCE",
+      "root_cause": "EQUIPMENT_FAILURE"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MINOR",
+      "template": "A staff member was opening a window in {building} when the window frame mechanism failed, causing the window to drop onto their {body_part}. Minor bruising resulted. The window has been secured closed and flagged for repair. All similar window mechanisms in the building to be inspected.",
+      "location_type": "INDOOR",
+      "activity": "ADMIN",
+      "root_cause": "EQUIPMENT_FAILURE"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MODERATE",
+      "template": "During lunchtime sports on the main field, a student collided with the metal goal post while chasing a ball. They struck their {body_part} on the post frame and experienced immediate pain and swelling. The school contacted the parents and the student was taken for an X-ray which confirmed no fracture but significant bruising. Padded goal post covers have been ordered.",
+      "location_type": "SPORTS_FIELD",
+      "activity": "SPORT",
+      "root_cause": "ENVIRONMENTAL"
+    },
+    {
+      "type": "SECURITY",
+      "severity": "MINOR",
+      "template": "At approximately 3:15pm, an unidentified individual was observed on school grounds near {building} after school hours. When approached by the caretaker, the individual left via the back gate without incident. The gate lock was found to be faulty. A review of perimeter security and CCTV coverage has been initiated.",
+      "location_type": "OUTDOOR",
+      "activity": "ADMIN",
+      "root_cause": "PROCEDURAL"
+    },
+    {
+      "type": "ENVIRONMENTAL",
+      "severity": "MINOR",
+      "template": "A strong chemical smell was reported coming from the cleaning cupboard near {building}. Investigation found that two incompatible cleaning products had been stored together and one container had leaked. The area was ventilated and the products removed. Staff reported mild headaches which resolved after leaving the area. Chemical storage procedures to be reviewed.",
+      "location_type": "INDOOR",
+      "activity": "CLEANING",
+      "root_cause": "PROCEDURAL"
+    },
+    {
+      "type": "INJURY",
+      "severity": "SERIOUS_HARM",
+      "template": "A contractor from {contractor} was working on the roof of {building} when a section of corrugated iron gave way underfoot. The worker fell through the ceiling, a distance of approximately 3 metres, landing on desks below. They sustained fractures to their {body_part} and were airlifted to hospital. WorkSafe has been notified. The contractor's work-at-height procedures are under review.",
+      "location_type": "INDOOR",
+      "activity": "CONSTRUCTION",
+      "root_cause": "PROCEDURAL"
+    },
+    {
+      "type": "NEAR_MISS",
+      "severity": "MODERATE",
+      "template": "The site manager discovered that the hand rail on the external staircase of {building} had become loose from its mountings. Several bolts were missing and the rail moved significantly when pressure was applied. This staircase is used by approximately 200 students daily between classes. The area was barricaded immediately and repair scheduled for the following day.",
+      "location_type": "STAIRWELL",
+      "activity": "TRANSIT",
+      "root_cause": "EQUIPMENT_FAILURE"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MINOR",
+      "template": "A teacher was setting up chairs in the school hall for assembly when one of the stacking chairs collapsed as they sat down. They fell awkwardly, landing on their {body_part}. First aid was provided and the teacher continued working after a short rest. All stacking chairs in the hall have been inspected and 12 were found to have worn mechanisms.",
+      "location_type": "INDOOR",
+      "activity": "TEACHING",
+      "root_cause": "EQUIPMENT_FAILURE"
+    },
+    {
+      "type": "NEAR_MISS",
+      "severity": "MINOR",
+      "template": "During heavy rain on {date}, surface flooding occurred across the lower car park and adjacent pedestrian pathway at {site_name}. Several students were observed wading through ankle-deep water during afternoon pick-up. No injuries occurred but the risk of slip/fall or hidden hazards beneath the water was significant. Drainage remediation has been added to the capital works programme.",
+      "location_type": "CARPARK",
+      "activity": "TRANSIT",
+      "root_cause": "ENVIRONMENTAL"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MODERATE",
+      "template": "The school caretaker was using a petrol-powered hedge trimmer along the boundary fence when the machine kicked back unexpectedly. The blade contacted their {body_part} causing a deep laceration requiring stitches at the local medical centre. The caretaker was off work for five days. Equipment maintenance records show the hedge trimmer was overdue for servicing.",
+      "location_type": "OUTDOOR",
+      "activity": "MAINTENANCE",
+      "root_cause": "EQUIPMENT_FAILURE"
+    },
+    {
+      "type": "NOTIFIABLE",
+      "severity": "NOTIFIABLE",
+      "template": "A gas leak was detected in the school kitchen during morning food preparation. The smell of gas was reported by kitchen staff who immediately evacuated the area. The school was partially evacuated as a precaution and the gas supply isolated. The gas fitter identified a cracked fitting on the main range connector. WorkSafe has been notified as this constitutes a notifiable event under the HSW Act.",
+      "location_type": "KITCHEN",
+      "activity": "ADMIN",
+      "root_cause": "EQUIPMENT_FAILURE"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MINOR",
+      "template": "A grounds maintenance contractor from {contractor} was trimming vegetation near the sports field boundary when they disturbed a wasp nest. They received multiple stings to their {body_part} and arms. The contractor carried an EpiPen as a precaution but did not require it. The nest was marked for professional removal the following day.",
+      "location_type": "OUTDOOR",
+      "activity": "MAINTENANCE",
+      "root_cause": "ENVIRONMENTAL"
+    },
+    {
+      "type": "PROPERTY_DAMAGE",
+      "severity": "MODERATE",
+      "template": "A delivery truck reversing into the school loading bay at {site_name} struck the corner of {building}, causing structural damage to the brick facade and cracking an interior wall. No people were in the immediate area. The damage has been assessed by a structural engineer who confirmed the building remains safe for occupation pending repair.",
+      "location_type": "OUTDOOR",
+      "activity": "ADMIN",
+      "root_cause": "HUMAN_ERROR"
+    },
+    {
+      "type": "INJURY",
+      "severity": "MINOR",
+      "template": "During a wet lunch break, a year 7 student was running along the covered walkway between {building} and the library when they slipped on the wet concrete. They fell forward onto their {body_part}. Minor grazing was treated by the duty teacher using the first aid kit. Anti-slip coating for covered walkways has been requested.",
+      "location_type": "OUTDOOR",
+      "activity": "PLAY",
+      "root_cause": "ENVIRONMENTAL"
+    },
+    {
+      "type": "NEAR_MISS",
+      "severity": "SERIOUS_HARM",
+      "template": "A section of the suspended ceiling in {building} collapsed at approximately 2am on {date}. The collapse deposited ceiling tiles, insulation, and lighting fixtures onto the desks and floor below. If this had occurred during school hours with students present, serious injuries would have been likely. A building engineer has been engaged and the entire suspended ceiling system is being assessed.",
+      "location_type": "INDOOR",
+      "activity": "ADMIN",
+      "root_cause": "STRUCTURAL"
+    }
+  ],
+  "template_patterns": [
+    "{role} {action} while {activity_desc} in {location}. {outcome}. {follow_up}.",
+    "At approximately {time}, {role} was {activity_desc} when {event}. {injury_desc}. {action_taken}.",
+    "During {activity_desc}, {event} occurred at {location}. {role} sustained {injury_desc} to their {body_part}. {action_taken}.",
+    "{role} reported that while {activity_desc} near {location}, {event}. {outcome}.",
+    "On {date}, {event} was observed at {location}. {role} was {activity_desc} at the time. {injury_desc}. {follow_up}."
+  ],
+  "template_components": {
+    "roles": ["a teacher", "the site manager", "a caretaker", "the H&S representative", "a support staff member", "a contractor worker", "a student"],
+    "actions": ["slipped", "tripped", "fell", "was struck by", "caught their hand on", "bumped into", "stepped on", "lifted incorrectly"],
+    "activity_descs": ["carrying supplies to the classroom", "cleaning the hallway", "conducting a routine inspection", "mowing the lawns", "repairing a door", "setting up for an event", "walking to the staff room", "operating machinery", "moving furniture", "accessing storage"],
+    "events": ["the floor was wet from recent mopping", "a loose tile caught their foot", "the handrail gave way", "a tool fell from the workbench", "the step edge was worn smooth", "a door swung open unexpectedly", "equipment malfunctioned", "visibility was poor due to rain"],
+    "outcomes": ["Minor bruising resulted", "They reported pain in the affected area", "No injury occurred but the risk was significant", "First aid was administered", "Medical attention was sought", "The area was cordoned off"],
+    "follow_ups": ["The area has been flagged for repair", "A review of procedures has been initiated", "PPE requirements have been reinforced", "The equipment has been taken out of service", "Signage has been improved", "Training refresher scheduled"]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "findings_templates": [
+    "Site inspection revealed generally satisfactory conditions with {num_hazards} hazards identified. Main concerns relate to {concern_area}. Overall risk posture is {risk_level}. Recommend follow-up on {action_area} within {timeframe}.",
+    "Comprehensive risk assessment completed for {site_name}. {num_hazards} new hazards identified and {existing} existing hazards reviewed. Key findings include: {finding1}; {finding2}. {num_actions} corrective actions have been raised.",
+    "Assessment of {site_name} identified {risk_level} overall risk level. Primary concerns are {concern_area} particularly affecting {area}. Emergency procedures were reviewed and found to be {emergency_status}. {num_actions} actions created.",
+    "Routine H1/H2 assessment for {site_name} conducted on {date}. Building condition assessments reviewed for all {num_buildings} structures. {num_hazards} hazards requiring attention identified. Notable improvement in {improvement_area} since last assessment.",
+    "Risk assessment findings: {site_name} presents {risk_level} risk environment. Critical items include {finding1}. Moderate items include {finding2}. {num_actions} actions assigned with {critical_count} marked as critical priority."
+  ],
+  "field_notes_templates": [
+    "Arrived at {site_name} at {time}. Met with {role} who reported {report}. Walked the site starting from {start_area}. Observed {observation1}. Noted {observation2}. {building} appears {condition}. Recommend {recommendation}. Photos taken for record.",
+    "Post-incident inspection at {site_name}. Area where incident occurred has been {status}. {observation1}. Interviewed {role} who confirmed {confirmation}. Root cause appears to be {root_cause}. Immediate controls: {controls}. Further investigation: {further}.",
+    "Contractor audit: {contractor} on site performing {work_type}. Checked: PPE compliance - {ppe_status}; site induction records - {induction_status}; work method statements - {method_status}. Overall: {compliance_rating}. Issues noted: {issues}.",
+    "Complaint response visit to {site_name} regarding {complaint}. On inspection found {finding}. {observation1}. Spoke with {role} who was {response}. Actions: {actions}. Follow-up required: {followup}.",
+    "Routine site walkthrough at {site_name}. Checked emergency exits - {exit_status}. Fire extinguishers - {fire_status}. First aid kits - {firstaid_status}. Signage - {signage_status}. General housekeeping - {housekeeping}. {num_hazards} new hazards logged."
+  ],
+  "concern_areas": ["aging infrastructure", "playground equipment wear", "slip hazards during winter", "electrical systems", "tree management", "traffic management", "contractor oversight", "chemical storage", "asbestos-containing materials", "roof condition"],
+  "observations": [
+    "loose railing on Block A stairwell", "standing water near entrance pathway", "worn anti-slip tape on steps",
+    "tree branch overhanging walkway", "damaged fencing along south boundary", "trip hazard from raised concrete",
+    "inadequate lighting in car park", "blocked emergency exit in hall", "missing fire extinguisher sign",
+    "cracked window pane in classroom", "mould visible on ceiling tiles", "cluttered storage room blocking access",
+    "uneven surface on playground", "peeling paint near food prep area", "bird nesting in roof cavity"
+  ],
+  "complaints": ["water leak from ceiling", "strange smell in classroom", "broken playground equipment", "slippery pathway", "overgrown trees blocking light", "noise from construction work", "unsafe traffic conditions at drop-off"],
+  "ppe_statuses": ["fully compliant", "partial - no safety glasses observed", "non-compliant - worker on ladder without harness", "compliant with minor exceptions"],
+  "improvements": ["playground area maintenance", "emergency signage", "stairwell lighting", "car park markings", "chemical storage", "first aid supplies"]
+}
