@@ -7,7 +7,7 @@
 --      e.g. PUT 'file:///path/to/output/site.csv' @DATAFILES/SITE/ OVERWRITE=TRUE;
 -- =============================================================================
 
-USE ROLE ACCOOUNTADMIN;
+USE ROLE ACCOUNTADMIN;
 USE DATABASE HS_WORKSHOP;
 USE SCHEMA RAW;
 
