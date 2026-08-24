@@ -2,7 +2,7 @@
 -- H&S Workshop Data Model - NZ Schools
 -- =============================================================================
 
-USE ROLE ACCOOUNTADMIN;
+USE ROLE ACCOUNTADMIN;
 CREATE DATABASE IF NOT EXISTS HS_WORKSHOP;
 USE DATABASE HS_WORKSHOP;
 
