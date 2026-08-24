@@ -5,8 +5,8 @@
 
 ---
     
-| **OPTION 1**|                        | **OPTION 2**|
+| **OPTION 1**|           or             | **OPTION 2**|
 |:-:|--|:-:|
-| [**Self paced labs**](selfpaced.md)|            |[**Build with CoCo**](buildwithcoco.md)|
+| [**Self paced labs**](Self_Paced_Labs.md)|            |[**Build with CoCo**](Build_with_CoCo.md)|
 
 ---

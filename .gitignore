@@ -1,4 +1,5 @@
 .snowflake/
+.DS_Store
 ddl/
 generators/
 prepare_deploy.sh
