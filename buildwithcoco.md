@@ -21,8 +21,8 @@ You will leverage ❄️ **Snowflake** ❄️ and ❄️**Snowflake CoCo**❄️
 - Want to train machine leaning model to create a risk score for each site? Sounds cool. CoCo loves ML
 - Need to ingest or generate some new data to make your demo pop? CoCo can help here to.
 - Want to allow the leadership team to ask Natural language questions via a chat interface? CoCo builds agents. 
-- Want to build a beautiful HTML presentation that could be used at the next board meeting to present key Health and Saftey KPI's and metrics? Yup...CoCo
-- Need to document your solution and the architecure? CoCo also does the boring stuff.
+- Want to build a beautiful HTML presentation that could be used at the next board meeting to present key Health and safety KPI's and metrics? Yup...CoCo
+- Need to document your solution and the architecture? CoCo also does the boring stuff.
 
 ## Where do we start?
 
@@ -81,4 +81,38 @@ Heres a high level workflow you might want to follow :
 - What hazards were identified in the last round of inspections at Region Y?
 - When was Site Z last assessed, and what were the findings?
 
+---
+
+## 📗 Build with CoCo Set up
+
+**NOTE: if you are working in a team only 1 person needs to do this**
+
+### 1. Set up Database and tables
+1. Download the 2 SQL files and the ZIP file from the [**Assets** ](/assets/) folder
+2. Unzip the **data_files.zip** zip file. The unzipped folder will contain the 11 data files you need to upload.
+1. Login to Snowflake and select **Projects** then **Workspaces** from the left hand menu. 
+1. Click the **+ Add New** button and select **Upload Files**.
+1. Select the **2 SQL files**. Once uploaded they should appear in your workspaces file list
+1. Open **01_create_tables.sql**
+1. In the worksheet click the down arrow next to the blue **Run** button and select **Run All**.  This will run all the statements in the script which will set up you database, schema and tables.  Once completed you need to upload the data files
+
+### 2. Upload data files
+1. In the left hand menu select **Ingestion** then **Add Data**
+1. Click the **Load files to stage** button
+1. Click the browse button, then locate the data files you unzipped early. Select all the data files and click **upload**
+1. Then set the database, schema and stage for the destination:\
+**DATABASE:** HS_Workshop\
+**SCHEMA:** RAW\
+S**TAGE:** DATAFILES
+1. Leave the "path" field as is, then click the **UPLOAD** button
+1. An Upload progress indicator will appear in the bottom right hand corner of the page. 
+1. Once complete you will get the follow confirmation: **11 files successfully uploaded to DATAFILES**
+
+### 3. Load data into tables
+1. Login to Snowflake and select **Projects** then **Workspaces** from the left hand menu.  
+1. Open the **02_dataload.sql** file 
+1. In the worksheet click the down arrow next to the blue **Run** button and select **Run All**.  This will run all the statements in the script which will load the data from the files you just uploaded.
+1. Once complete the results should show 11 tables and the row count of each table. 
+
+### ✅ You are now good to begin your build
 ---
