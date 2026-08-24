@@ -2,6 +2,7 @@
 -- H&S Workshop Data Model - NZ Schools
 -- =============================================================================
 
+USE ROLE ACCOOUNTADMIN;
 CREATE DATABASE IF NOT EXISTS HS_WORKSHOP;
 USE DATABASE HS_WORKSHOP;
 
@@ -15,7 +16,7 @@ CREATE OR REPLACE FILE FORMAT CSV_FORMAT
     TYPE = 'CSV'
     PARSE_HEADER = TRUE
     FIELD_OPTIONALLY_ENCLOSED_BY = '"'
-    NULL_IF = ('', 'NULL');
+    NULL_IF = ('', 'NULL')
     COMMENT = 'Standard CSV format for loading generated workshop data';
 
 CREATE OR REPLACE STAGE DATAFILES

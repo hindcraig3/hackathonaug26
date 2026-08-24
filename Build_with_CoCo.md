@@ -109,7 +109,7 @@ S**TAGE:** DATAFILES
 1. Once complete you will get the follow confirmation: **11 files successfully uploaded to DATAFILES**
 
 ### 3. Load data into tables
-1. Login to Snowflake and select **Projects** then **Workspaces** from the left hand menu.  
+1. Select **Projects** then **Workspaces** from the left hand menu.  
 1. Open the **02_dataload.sql** file 
 1. In the worksheet click the down arrow next to the blue **Run** button and select **Run All**.  This will run all the statements in the script which will load the data from the files you just uploaded.
 1. Once complete the results should show 11 tables and the row count of each table. 
